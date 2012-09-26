@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background_pretty_clean"
+    android:fillViewport="true" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:gravity="center">
+        
+        <LinearLayout
+        	android:id="@+id/layoutNumberOne"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+	        android:background="@drawable/window_nice_glass"        
+            android:gravity="center_vertical">
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/simpleTopOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:gravity="center_vertical|center"
+                android:paddingTop="75sp"
+                android:text="@string/SimpleThirteenProbeOne"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/simpleQuestionOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/SimpleThirteenQuestionOne" 
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+	    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SimpleThirteenButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_lime"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/SimpleThirteenAnswerOne" />
+
+            <Button
+                android:id="@+id/SimpleThirteenButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_red"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/simpleTopTWO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"                
+                android:text="@string/SimpleThirteenQuestionTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SimpleThirteenButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_red"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+
+            <Button
+                android:id="@+id/SimpleThirteenButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_lime"
+		        android:paddingLeft="15dp"
+    		    android:paddingRight="15dp"
+                android:text="@string/SimpleThirteenAnswerTwo" />
+        </LinearLayout>
+     </LinearLayout>        
+        
+        <LinearLayout
+	        android:id="@+id/layoutNumberTwo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+	        android:background="@drawable/window_nice_glass"        
+            android:gravity="center_vertical">
+                
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/simpleTopTHREE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:gravity="center_vertical|center"
+                android:paddingTop="75dp"
+                android:text="@string/SimpleThirteenProbeTwo"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp"  />
+            <TextView
+                android:id="@+id/SimpleThirteenProbeTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/SimpleThirteenQuestionThree"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SimpleThirteenButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_lime"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/SimpleThirteenAnswerThree" />
+
+            <Button
+                android:id="@+id/SimpleThirteenButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_red"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/simpleTopFOUR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/SimpleThirteenQuestionFour"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SimpleThirteenButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_red"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+
+            <Button
+                android:id="@+id/SimpleThirteenButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+	 	        android:background="@drawable/btn_nice_lime"
+		        android:paddingLeft="15dp"
+    		    android:paddingRight="15dp"
+                android:text="@string/SimpleThirteenAnswerFour" />
+        </LinearLayout>
+
+     </LinearLayout>
+        
+        
+     <LinearLayout
+     android:id="@+id/layoutNumberThree"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" 
+	 android:background="@drawable/window_nice_glass"        
+     android:gravity="center_vertical">
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/simpleTopSIX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:gravity="center_vertical|center"
+                android:paddingTop="75dp"
+                android:text="@string/SimpleThirteenProbeThree"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp"  />
+            <TextView
+                android:id="@+id/simpleTopSixTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/SimpleThirteenQuestionFive"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SimpleThirteenButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_lime"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/SimpleThirteenAnswerFive" />
+
+            <Button
+                android:id="@+id/SimpleThirteenButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_red"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/simpleTopSEVEN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/SimpleThirteenQuestionSix"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SimpleThirteenButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_red"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+
+            <Button
+                android:id="@+id/SimpleThirteenButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_lime"
+		        android:paddingLeft="15dp"
+   		 	    android:paddingRight="15dp"
+                android:text="@string/SimpleThirteenAnswerSix" />
+        </LinearLayout>
+
+     </LinearLayout>   
+        
+     
+     <LinearLayout
+     android:id="@+id/layoutNumberFour"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" 
+	 android:background="@drawable/window_nice_glass"        
+     android:gravity="center_vertical">
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/simpleTopEIGHT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="75dp"
+                android:text="@string/SimpleThirteenProbeFour"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp"  />
+            <TextView
+                android:id="@+id/simpleTopEightTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/SimpleThirteenQuestionSeven"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SimpleThirteenButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_lime"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/SimpleThirteenAnswerSeven" />
+
+            <Button
+                android:id="@+id/SimpleThirteenButton14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_red"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/simpleTopNINE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/SimpleThirteenQuestionEight"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SimpleThirteenButton16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_red"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+
+            <Button
+                android:id="@+id/SimpleThirteenButton15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_lime"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/SimpleThirteenAnswerEight" />
+        </LinearLayout>        
+        
+        
+     </LinearLayout>
+     
+     <LinearLayout
+     android:id="@+id/layoutNumberFive"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" 
+	 android:background="@drawable/window_nice_glass"        
+     android:gravity="center_vertical">
+          
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/simpleTopTEN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="75dp"
+                android:text="@string/SimpleThirteenProbeFive"
+                android:textAppearance="?android:attr/textAppearanceLarge" 
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/simpleTopNine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/SimpleThirteenQuestionNine"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SimpleThirteenButton17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_lime"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/SimpleThirteenAnswerNine" />
+
+            <Button
+                android:id="@+id/SimpleThirteenButton18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_red"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/simpleTopTenTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/SimpleThirteenQuestionTen"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SimpleThirteenButton20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_red"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+
+            <Button
+                android:id="@+id/SimpleThirteenButton19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_lime"
+		        android:paddingLeft="15dp"
+  	  	    android:paddingRight="15dp"
+                android:text="@string/SimpleThirteenAnswerTen" />
+        </LinearLayout>
+
+        
+    </LinearLayout>
+    
+    <LinearLayout
+    android:id="@+id/layoutNumberSix"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+	android:background="@drawable/window_nice_glass"        
+    android:gravity="center_vertical">
+     
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/simpleTopELEVEN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="75dp"
+                android:text="@string/SimpleThirteenProbeSix"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp"  />
+            <TextView
+                android:id="@+id/simpleTopEleven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/SimpleThirteenQuestionEleven"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SimpleThirteenButton21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_lime"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/SimpleThirteenAnswerEleven" />
+
+            <Button
+                android:id="@+id/SimpleThirteenButton22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_red"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/simpleTopFIVE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/SimpleThirteenQuestionTwelve"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SimpleThirteenButton24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_red"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+
+            <Button
+                android:id="@+id/SimpleThirteenButton23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_lime"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/SimpleThirteenAnswerTwelve" />
+        </LinearLayout>        
+        
+        
+    </LinearLayout>    
+  </LinearLayout>
+</ScrollView>

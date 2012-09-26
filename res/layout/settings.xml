@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background_pretty_clean">
+
+    <Button
+        android:id="@+id/chartButtonSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:layout_marginBottom="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_nice_bluegreen"
+        android:text="@string/selectionText" />
+    
+    <Button
+        android:id="@+id/buttonProber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_nice_bluegreen"
+        android:text="@string/settingsButton4" />
+    
+    <Button
+        android:id="@+id/buttonSimpler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_nice_lime"
+        android:text="@string/settingsButton1" />
+    
+    <Button
+        android:id="@+id/buttonReverser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:background="@drawable/btn_nice_blue"
+        android:text="@string/settingsButton3" />
+    
+    <Button
+        android:id="@+id/buttonDReverser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_nice_red"
+        android:text="@string/settingsButton3" />
+
+    <Button
+        android:id="@+id/chartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:background="@drawable/btn_nice_amber"
+        android:text="@string/graphOneFrame" />
+
+    <Button
+        android:id="@+id/chartButtonAGG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:layout_marginBottom="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_nice_amber"
+        android:text="@string/graphOneLevels" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom|center"
+        android:text="@string/toDoList" />
+    
+</LinearLayout>

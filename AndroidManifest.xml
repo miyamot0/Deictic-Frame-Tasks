@@ -1,0 +1,549 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.backwardsblade.daedalus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>        
+        
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>        
+        
+        <activity
+            android:name=".SelectionScreen"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SELECTIONSCREEN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>        
+        
+        <activity
+            android:name=".SimplePicker"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEPICKER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                
+
+        <activity
+            android:name=".SimpleFrame1"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                        
+        
+        <activity
+            android:name=".SimpleFrame2"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                
+
+        <activity
+            android:name=".SimpleFrame3"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                        
+
+        <activity
+            android:name=".SimpleFrame4"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                        
+                
+        <activity
+            android:name=".SimpleFrame5"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                
+
+        <activity
+            android:name=".SimpleFrame6"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME6" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                        
+        
+        <activity
+            android:name=".SimpleFrame7"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME7" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                                
+
+        <activity
+            android:name=".SimpleFrame8"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME8" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                             
+        
+        <activity
+            android:name=".SimpleFrame9"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME9" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                     
+
+        <activity
+            android:name=".SimpleFrame10"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME10" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                             
+        
+        <activity
+            android:name=".SimpleFrame11"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME11" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                             
+        
+        <activity
+            android:name=".SimpleFrame12"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                     
+        
+        <activity
+            android:name=".SimpleFrame13"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                             
+        
+        <activity
+            android:name=".SimpleFrame14"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME14" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                                     
+        
+        <activity
+            android:name=".SimpleFrame15"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SIMPLEFRAME15" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                                             
+        
+        <activity
+            android:name=".ReversePicker"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEPICKER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                
+
+        <activity
+            android:name=".ReverseFrame1"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                
+        
+        <activity
+            android:name=".ReverseFrame2"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                        
+        
+        <activity
+            android:name=".ReverseFrame3"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                
+
+        <activity
+            android:name=".ReverseFrame4"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                        
+
+        <activity
+            android:name=".ReverseFrame5"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                        
+        
+        <activity
+            android:name=".ReverseFrame6"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME6" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                        
+        
+        <activity
+            android:name=".ReverseFrame7"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME7" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                        
+
+        <activity
+            android:name=".ReverseFrame8"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME8" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                        
+        
+        <activity
+            android:name=".ReverseFrame9"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME9" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                                
+        
+        <activity
+            android:name=".ReverseFrame10"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME10" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                                        
+        
+        <activity
+            android:name=".ReverseFrame11"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME11" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                                        
+        
+        <activity
+            android:name=".ReverseFrame12"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                                                
+        
+        <activity
+            android:name=".ReverseFrame13"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                                                
+        
+        <activity
+            android:name=".ReverseFrame14"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME14" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                                                
+        
+        <activity
+            android:name=".ReverseFrame15"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.REVERSEFRAME15" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                                                        
+        
+        <activity
+            android:name=".DoubleReversePicker"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.DOUBLEREVERSEPICKER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                
+
+        <activity
+            android:name=".DoubleReverseFrame1"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.DOUBLEREVERSEFRAME1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                        
+        
+        <activity
+            android:name=".CheckupFrame1"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.CHECKUPFRAME1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                
+        
+        <activity
+            android:name=".ProbePicker"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.PROBEPICKER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                
+
+        <activity
+            android:name=".ProbeFrame1"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.PROBEFRAME1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                
+
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                  
+        
+        <activity
+            android:name=".SqlViewer"
+            android:label="@string/title_activity_main" 
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SQLVIEWER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                 
+        
+        <activity
+            android:name=".SqlViewerRev"
+            android:label="@string/title_activity_main" 
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SQLVIEWERREV" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                         
+        
+        <activity
+            android:name=".SqlViewerDoubleRev"
+            android:label="@string/title_activity_main" 
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SQLVIEWERDOUBLEREV" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                         
+        
+        <activity
+            android:name=".SqlViewerProbe"
+            android:label="@string/title_activity_main" 
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SQLVIEWERPROBE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                         
+
+        <activity
+            android:name=".SqlViewerGraphing"
+            android:label="@string/title_activity_main" 
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.SQLVIEWERGRAPHING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>       
+
+        <activity
+            android:name=".GraphPicker"
+            android:label="@string/title_activity_main" 
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.GRAPHPICKER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>       
+        
+        <activity
+            android:name=".GraphSelector"
+            android:label="@string/title_activity_main" 
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.GRAPHSELECTOR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>               
+        
+        <activity
+            android:name=".GraphSelectorAgg"
+            android:label="@string/title_activity_main" 
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.GRAPHSELECTORAGG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>               
+        
+        <activity 
+            android:name="org.achartengine.GraphicalActivity" />
+        </application>
+
+</manifest>

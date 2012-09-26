@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background_pretty_clean"
+    android:fillViewport="true" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:gravity="center">
+        
+        <LinearLayout
+        	android:id="@+id/layoutNumberOne"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+	        android:background="@drawable/window_nice_glass"        
+            android:gravity="center_vertical">
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/ReversedTopOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:gravity="center_vertical|center"
+                android:paddingTop="75sp"
+                android:text="@string/ReversedNineProbeOne"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/ReversedQuestionOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/ReversedNineQuestionOne" 
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+	    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_lime"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerOne" />
+
+            <Button
+                android:id="@+id/ReversedNineButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_red"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ReversedTopTWO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"                
+                android:text="@string/ReversedNineQuestionTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_red"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+
+            <Button
+                android:id="@+id/ReversedNineButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_lime"
+		        android:paddingLeft="15dp"
+    		    android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerTwo" />
+        </LinearLayout>
+     </LinearLayout>        
+        
+        <LinearLayout
+	        android:id="@+id/layoutNumberTwo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+	        android:background="@drawable/window_nice_glass"        
+            android:gravity="center_vertical">
+                
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ReversedTopTHREE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:gravity="center_vertical|center"
+                android:paddingTop="75dp"
+                android:text="@string/ReversedNineProbeTwo"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp"  />
+            <TextView
+                android:id="@+id/ReversedNineProbeTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/ReversedNineQuestionThree"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_lime"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerThree" />
+
+            <Button
+                android:id="@+id/ReversedNineButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_red"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ReversedTopFOUR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/ReversedNineQuestionFour"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_red"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+
+            <Button
+                android:id="@+id/ReversedNineButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+	 	        android:background="@drawable/btn_nice_lime"
+		        android:paddingLeft="15dp"
+    		    android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerFour" />
+        </LinearLayout>
+
+     </LinearLayout>
+        
+        
+     <LinearLayout
+     android:id="@+id/layoutNumberThree"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" 
+	 android:background="@drawable/window_nice_glass"        
+     android:gravity="center_vertical">
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ReversedTopSIX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:gravity="center_vertical|center"
+                android:paddingTop="75dp"
+                android:text="@string/ReversedNineProbeThree"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp"  />
+            <TextView
+                android:id="@+id/ReversedTopSixTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/ReversedNineQuestionFive"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_lime"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerFive" />
+
+            <Button
+                android:id="@+id/ReversedNineButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_red"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ReversedTopSEVEN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/ReversedNineQuestionSix"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_red"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+
+            <Button
+                android:id="@+id/ReversedNineButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_lime"
+		        android:paddingLeft="15dp"
+   		 	    android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerSix" />
+        </LinearLayout>
+
+     </LinearLayout>   
+        
+     
+     <LinearLayout
+     android:id="@+id/layoutNumberFour"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" 
+	 android:background="@drawable/window_nice_glass"        
+     android:gravity="center_vertical">
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ReversedTopEIGHT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="75dp"
+                android:text="@string/ReversedNineProbeFour"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp"  />
+            <TextView
+                android:id="@+id/ReversedTopEightTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/ReversedNineQuestionSeven"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_lime"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerSeven" />
+
+            <Button
+                android:id="@+id/ReversedNineButton14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_red"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ReversedTopNINE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/ReversedNineQuestionEight"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_red"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+
+            <Button
+                android:id="@+id/ReversedNineButton15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_lime"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerEight" />
+        </LinearLayout>        
+        
+        
+     </LinearLayout>
+     
+     <LinearLayout
+     android:id="@+id/layoutNumberFive"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" 
+	 android:background="@drawable/window_nice_glass"        
+     android:gravity="center_vertical">
+          
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ReversedTopTEN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="75dp"
+                android:text="@string/ReversedNineProbeFive"
+                android:textAppearance="?android:attr/textAppearanceLarge" 
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/ReversedTopNine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/ReversedNineQuestionNine"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_lime"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerNine" />
+
+            <Button
+                android:id="@+id/ReversedNineButton18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_red"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ReversedTopTenTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/ReversedNineQuestionTen"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_red"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+
+            <Button
+                android:id="@+id/ReversedNineButton19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_lime"
+		        android:paddingLeft="15dp"
+  	  	    android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerTen" />
+        </LinearLayout>
+
+        
+    </LinearLayout>
+    
+    <LinearLayout
+    android:id="@+id/layoutNumberSix"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+	android:background="@drawable/window_nice_glass"        
+    android:gravity="center_vertical">
+     
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ReversedTopELEVEN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="75dp"
+                android:text="@string/ReversedNineProbeSix"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp"  />
+            <TextView
+                android:id="@+id/ReversedTopEleven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/ReversedNineQuestionEleven"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_lime"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerEleven" />
+
+            <Button
+                android:id="@+id/ReversedNineButton22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_red"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ReversedTopFIVE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/ReversedNineQuestionTwelve"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_red"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+
+            <Button
+                android:id="@+id/ReversedNineButton23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_lime"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerTwelve" />
+        </LinearLayout>        
+        
+        
+    </LinearLayout>    
+
+    <LinearLayout
+    android:id="@+id/layoutNumberSeven"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+	android:background="@drawable/window_nice_glass"        
+    android:gravity="center_vertical">
+     
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ReversedTopTWELVE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="75dp"
+                android:text="@string/ReversedNineProbeSix"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp"  />
+            <TextView
+                android:id="@+id/ReversedTopTwelve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/ReversedNineQuestionEleven"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_lime"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerEleven" />
+
+            <Button
+                android:id="@+id/ReversedNineButton26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_red"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ReversedTopTHIRTEEN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:paddingTop="25dp"
+                android:text="@string/ReversedNineQuestionTwelve"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ReversedNineButton28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_nice_red"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/holderTwo" />
+
+            <Button
+                android:id="@+id/ReversedNineButton27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+ 		        android:background="@drawable/btn_nice_lime"
+		        android:paddingLeft="15dp"
+  		  	    android:paddingRight="15dp"
+                android:text="@string/ReversedNineAnswerTwelve" />
+        </LinearLayout>            
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

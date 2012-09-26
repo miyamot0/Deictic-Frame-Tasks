@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent" 
+	android:orientation="vertical">
+	<LinearLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center_vertical|center"
+    	android:orientation="vertical" 
+    	android:background="@drawable/background_probe">
+	    <LinearLayout
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:gravity="center">    
+ 		<Button
+ 		    android:id="@+id/probeSessionSet1"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_marginBottom="25dp"
+ 		    android:layout_marginTop="25dp"
+ 		    android:background="@drawable/btn_nice_bluegreen"
+ 		    android:paddingLeft="66dp"
+ 		    android:paddingRight="66dp"
+ 		    android:text="@string/ProbeSessionOne"
+ 		    android:textSize="45sp" />
+ 	    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/probeSessionSet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nice_bluegreen"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/ProbeSessionTwo"
+            android:textSize="45sp" />
+	    </LinearLayout>        
+    
+	    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/probeSessionSet3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_bluegreen"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/ProbeSessionThree"
+            android:textSize="45sp" />
+         </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/probeSessionSet4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ 	        android:background="@drawable/btn_nice_bluegreen"
+	        android:paddingLeft="66dp"
+    	    android:paddingRight="66dp"  
+    	    android:textSize="45sp"      		               
+        	android:text="@string/ProbeSessionFour" />
+        </LinearLayout>        
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/probeSessionSet5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_bluegreen"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/ProbeSessionFive"
+            android:textSize="45sp" />
+        </LinearLayout>                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/probeSessionSet6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nice_bluegreen"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/ProbeSessionSix"
+            android:textSize="45sp" />
+        </LinearLayout>                
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/probeSessionSet7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_bluegreen"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/ProbeSessionSeven"
+            android:textSize="45sp" />
+
+        </LinearLayout>                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/probeSessionSet8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nice_bluegreen"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/ProbeSessionEight"
+            android:textSize="45sp" />
+        </LinearLayout>                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/probeSessionSet9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_bluegreen"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/ProbeSessionNine"
+            android:textSize="45sp" />
+
+        </LinearLayout>                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/probeSessionSet10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nice_bluegreen"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/ProbeSessionTen"
+            android:textSize="45sp" />
+        </LinearLayout>                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/probeSessionSet11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_bluegreen"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/ProbeSessionEleven"
+            android:textSize="45sp" />
+
+        </LinearLayout>                
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/probeSessionSet12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nice_bluegreen"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/ProbeSessionTwelve"
+            android:textSize="45sp" />
+        </LinearLayout>                        
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/probeSessionSet13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_bluegreen"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/ProbeSessionThirteen"
+            android:textSize="45sp" />
+
+        </LinearLayout>                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/probeSessionSet14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nice_bluegreen"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/ProbeSessionFourteen"
+            android:textSize="45sp" />
+        </LinearLayout>                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/probeSessionSet15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_bluegreen"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/ProbeSessionFifteen"
+            android:textSize="45sp" />
+
+        </LinearLayout>                        
+        
+    </LinearLayout>
+</ScrollView>

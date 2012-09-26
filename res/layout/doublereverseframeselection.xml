@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:gravity="center" >
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_red_better"    >
+    
+	    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">    
+
+	    <Button
+	        android:id="@+id/DoubleReversedFrameSet1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="25dp"
+	        android:layout_marginTop="25dp"
+	        android:background="@drawable/btn_nice_red"
+	        android:paddingLeft="66dp"
+	        android:paddingRight="66dp"
+	        android:text="@string/DoubleReverseOneLesson"
+	        android:textSize="45sp" />
+
+	    </LinearLayout>
+   
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+       	<Button
+       	    android:id="@+id/DoubleReversedFrameSet2"
+       	    android:layout_width="wrap_content"
+       	    android:layout_height="wrap_content"
+       	    android:background="@drawable/btn_nice_red"
+       	    android:paddingLeft="66dp"
+       	    android:paddingRight="66dp"
+       	    android:text="@string/DoubleReverseTwoLesson"
+       	    android:textSize="45sp" />
+
+	    </LinearLayout>
+                
+	    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/DoubleReversedFrameSet3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_red"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/DoubleReverseThreeLesson"
+            android:textSize="45sp" />
+
+	    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/DoubleReversedFrameSet4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nice_red"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/DoubleReverseFourLesson"
+            android:textSize="45sp" />
+
+        </LinearLayout>        
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/DoubleReversedFrameSet5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_red"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/DoubleReverseFiveLesson"
+            android:textSize="45sp" />
+
+        </LinearLayout>        
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/DoubleReversedFrameSet6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ 		    android:background="@drawable/btn_nice_red"
+ 		    android:paddingLeft="66dp"
+ 		    android:paddingRight="66dp"
+ 		    android:textSize="45sp" 
+            android:text="@string/DoubleReverseSixLesson" />
+        </LinearLayout>        
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/DoubleReversedFrameSet7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_red"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/DoubleReverseSevenLesson"
+            android:textSize="45sp" />
+
+        </LinearLayout>        
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/DoubleReversedFrameSet8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nice_red"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/DoubleReverseEightLesson"
+            android:textSize="45sp" />
+
+        </LinearLayout>        
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/DoubleReversedFrameSet9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_red"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/DoubleReverseNineLesson"
+            android:textSize="45sp" />
+
+        </LinearLayout>        
+        
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/DoubleReversedFrameSet10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nice_red"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/DoubleReverseTenLesson"
+            android:textSize="45sp" />
+
+        </LinearLayout>                
+        
+        
+        
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/DoubleReversedFrameSet11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_red"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/DoubleReverseElevenLesson"
+            android:textSize="45sp" />
+
+        </LinearLayout>                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/DoubleReversedFrameSet12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nice_red"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/DoubleReverseTwelveLesson"
+            android:textSize="45sp" />
+
+        </LinearLayout>                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/DoubleReversedFrameSet13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_red"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/DoubleReverseThirteenLesson"
+            android:textSize="45sp" />
+
+        </LinearLayout>                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/DoubleReversedFrameSet14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nice_red"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/DoubleReverseFourteenLesson"
+            android:textSize="45sp" />
+
+        </LinearLayout>                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/DoubleReversedFrameSet15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_red"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/DoubleReverseFifteenLesson"
+            android:textSize="45sp" />
+
+        </LinearLayout>                
+	</LinearLayout>
+</ScrollView>

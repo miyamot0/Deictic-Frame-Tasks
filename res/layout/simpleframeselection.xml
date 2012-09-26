@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent" 
+	android:orientation="vertical">
+	<LinearLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center_vertical|center"
+    	android:background="@drawable/background_green"
+    	android:orientation="vertical" >
+	    <LinearLayout
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:gravity="center">    
+ 		<Button
+ 		    android:id="@+id/simpleFrameSet1"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_marginBottom="25dp"
+ 		    android:layout_marginTop="25dp"
+ 		    android:background="@drawable/btn_nice_lime"
+ 		    android:paddingLeft="66dp"
+ 		    android:paddingRight="66dp"
+ 		    android:text="@string/SimpleOneLesson"
+ 		    android:textSize="45sp" />
+ 	    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nice_lime"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/SimpleTwoLesson"
+            android:textSize="45sp" />
+	    </LinearLayout>        
+    
+	    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_lime"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/SimpleThreeLesson"
+            android:textSize="45sp" />
+         </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ 	        android:background="@drawable/btn_nice_lime"
+	        android:paddingLeft="66dp"
+    	    android:paddingRight="66dp"  
+    	    android:textSize="45sp"      		               
+        	android:text="@string/SimpleFourLesson" />
+        </LinearLayout>        
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_lime"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/SimpleFiveLesson"
+            android:textSize="45sp" />
+        </LinearLayout>                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_nice_lime"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/SimpleSixLesson"
+            android:textSize="45sp" />
+        </LinearLayout>                
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_lime"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/SimpleSevenLesson"
+            android:textSize="45sp" />
+        </LinearLayout>                        
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ 	        android:background="@drawable/btn_nice_lime"
+	        android:paddingLeft="66dp"
+    	    android:paddingRight="66dp"        
+    	    android:textSize="45sp"		               
+        	android:text="@string/SimpleEightLesson" />
+        </LinearLayout>                      
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_lime"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/SimpleNineLesson"
+            android:textSize="45sp" />
+        </LinearLayout>                     
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ 	        android:background="@drawable/btn_nice_lime"
+	        android:paddingLeft="66dp"
+    	    android:paddingRight="66dp"       
+    	    android:textSize="45sp" 		               
+        	android:text="@string/SimpleTenLesson" />
+        </LinearLayout>                                
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_lime"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/SimpleElevenLesson"
+            android:textSize="45sp" />
+        </LinearLayout>                                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ 	        android:background="@drawable/btn_nice_lime"
+	        android:paddingLeft="66dp"
+    	    android:paddingRight="66dp"       
+    	    android:textSize="45sp" 		               
+        	android:text="@string/SimpleTwelveLesson" />
+        </LinearLayout>                                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_lime"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/SimpleThirteenLesson"
+            android:textSize="45sp" />
+        </LinearLayout>                                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ 	        android:background="@drawable/btn_nice_lime"
+	        android:paddingLeft="66dp"
+    	    android:paddingRight="66dp"       
+    	    android:textSize="45sp" 		               
+        	android:text="@string/SimpleFourteenLesson" />
+        </LinearLayout>                                
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/simpleFrameSet15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_nice_lime"
+            android:paddingLeft="66dp"
+            android:paddingRight="66dp"
+            android:text="@string/SimpleFifteenLesson"
+            android:textSize="45sp" />
+        </LinearLayout>                                        
+	</LinearLayout>
+</ScrollView>

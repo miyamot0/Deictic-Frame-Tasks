@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:fillViewport="true"   >
+    
+    
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/background_pretty_clean"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/selectSimple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/btn_nice_lime"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/FrameSimple"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/selectReversed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/btn_nice_blue"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/FrameReversed"
+        android:textSize="45sp" />
+    
+    <Button
+        android:id="@+id/selectDoubleReversed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_nice_red"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"      
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"  	        
+    	android:gravity="center"
+    	android:textSize="45sp"
+        android:text="@string/FrameDoubleReversed" />    
+        
+</LinearLayout>
+</ScrollView>
