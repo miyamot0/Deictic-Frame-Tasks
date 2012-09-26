@@ -1,3 +1,11 @@
-Initial version 
+Initial version for RFT replication
+BackwardsBlade; ShawnPGilroy@gmail.com
 
-Deictic framing application: 
+To do:
+
+Finalize strings
+Layout adjustments
+Graphing tweaks
+User preferences
+Database cleaning
+
