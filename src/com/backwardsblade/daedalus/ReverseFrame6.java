@@ -79,6 +79,7 @@ public class ReverseFrame6 extends Activity {
 		Button SevenNoTwo = (Button) findViewById(R.id.ReversedSixButton28);		
 		
         builder.setTitle("What is your name?");
+        builder.setCancelable(false);
         builder.setItems(names, new DialogInterface.OnClickListener() {
 			
 			public void onClick(DialogInterface dialog, int which) {

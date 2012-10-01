@@ -73,6 +73,7 @@ public class SimpleFrame13 extends Activity {
 		Button SixNoTwo = (Button) findViewById(R.id.SimpleThirteenButton24);
 
         builder.setTitle("What is your name?");
+        builder.setCancelable(false);
         builder.setItems(names, new DialogInterface.OnClickListener() {
 			
 			public void onClick(DialogInterface dialog, int which) {

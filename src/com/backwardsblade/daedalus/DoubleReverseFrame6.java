@@ -11,13 +11,13 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-public class DoubleReverseFrame3 extends Activity {
+public class DoubleReverseFrame6 extends Activity {
 
 	boolean p1q1=true;  boolean p1q2=true; 	boolean p2q1=true;	boolean p2q2=true;
 	boolean p3q1=true;	boolean p3q2=true;	boolean p4q1=true;	boolean p4q2=true;	
 	boolean p5q1=true;	boolean p5q2=true;	
 	
-	int p1=0; int p2=0;	int p3=0; int p4=0; int p5=0; int lesson=303;
+	int p1=0; int p2=0;	int p3=0; int p4=0; int p5=0; int lesson=306;
 	
 	String student="";
 	
@@ -25,7 +25,7 @@ public class DoubleReverseFrame3 extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.doublereverseframe3);
+		setContentView(R.layout.doublereverseframe6);
 	
 		final CharSequence[] names = getResources().getStringArray(R.array.studentNames);		
 				
@@ -46,26 +46,26 @@ public class DoubleReverseFrame3 extends Activity {
 		final MediaPlayer awesome=MediaPlayer.create(this, R.raw.smoneup);
 		final MediaPlayer perfect=MediaPlayer.create(this, R.raw.powerup);		
 		
-		Button OneYes = (Button) findViewById(R.id.DoubleReversedThreeButton1);
-		Button OneNo = (Button) findViewById(R.id.DoubleReversedThreeButton2);		
-		Button OneYesOne = (Button) findViewById(R.id.DoubleReversedThreeButton3);
-		Button OneNoTwo = (Button) findViewById(R.id.DoubleReversedThreeButton4);		
-		Button TwoYes = (Button) findViewById(R.id.DoubleReversedThreeButton5);
-		Button TwoNo = (Button) findViewById(R.id.DoubleReversedThreeButton6);		
-		Button TwoYesOne = (Button) findViewById(R.id.DoubleReversedThreeButton7);
-		Button TwoNoTwo = (Button) findViewById(R.id.DoubleReversedThreeButton8);				
-		Button ThreeYes = (Button) findViewById(R.id.DoubleReversedThreeButton9);
-		Button ThreeNo = (Button) findViewById(R.id.DoubleReversedThreeButton10);		
-		Button ThreeYesOne = (Button) findViewById(R.id.DoubleReversedThreeButton11);
-		Button ThreeNoTwo = (Button) findViewById(R.id.DoubleReversedThreeButton12);
-		Button FourYes = (Button) findViewById(R.id.DoubleReversedThreeButton13);
-		Button FourNo = (Button) findViewById(R.id.DoubleReversedThreeButton14);				
-		Button FourYesOne = (Button) findViewById(R.id.DoubleReversedThreeButton15);
-		Button FourNoTwo = (Button) findViewById(R.id.DoubleReversedThreeButton16);		
-		Button FiveYes = (Button) findViewById(R.id.DoubleReversedThreeButton17);
-		Button FiveNo = (Button) findViewById(R.id.DoubleReversedThreeButton18);
-		Button FiveYesOne = (Button) findViewById(R.id.DoubleReversedThreeButton19);
-		Button FiveNoTwo = (Button) findViewById(R.id.DoubleReversedThreeButton20);				
+		Button OneYes = (Button) findViewById(R.id.DoubleReversedSixButton1);
+		Button OneNo = (Button) findViewById(R.id.DoubleReversedSixButton2);		
+		Button OneYesOne = (Button) findViewById(R.id.DoubleReversedSixButton3);
+		Button OneNoTwo = (Button) findViewById(R.id.DoubleReversedSixButton4);		
+		Button TwoYes = (Button) findViewById(R.id.DoubleReversedSixButton5);
+		Button TwoNo = (Button) findViewById(R.id.DoubleReversedSixButton6);		
+		Button TwoYesOne = (Button) findViewById(R.id.DoubleReversedSixButton7);
+		Button TwoNoTwo = (Button) findViewById(R.id.DoubleReversedSixButton8);				
+		Button ThreeYes = (Button) findViewById(R.id.DoubleReversedSixButton9);
+		Button ThreeNo = (Button) findViewById(R.id.DoubleReversedSixButton10);		
+		Button ThreeYesOne = (Button) findViewById(R.id.DoubleReversedSixButton11);
+		Button ThreeNoTwo = (Button) findViewById(R.id.DoubleReversedSixButton12);
+		Button FourYes = (Button) findViewById(R.id.DoubleReversedSixButton13);
+		Button FourNo = (Button) findViewById(R.id.DoubleReversedSixButton14);				
+		Button FourYesOne = (Button) findViewById(R.id.DoubleReversedSixButton15);
+		Button FourNoTwo = (Button) findViewById(R.id.DoubleReversedSixButton16);		
+		Button FiveYes = (Button) findViewById(R.id.DoubleReversedSixButton17);
+		Button FiveNo = (Button) findViewById(R.id.DoubleReversedSixButton18);
+		Button FiveYesOne = (Button) findViewById(R.id.DoubleReversedSixButton19);
+		Button FiveNoTwo = (Button) findViewById(R.id.DoubleReversedSixButton20);				
 		
         builder.setTitle("What is your name?");
         builder.setCancelable(false);
@@ -97,7 +97,7 @@ public class DoubleReverseFrame3 extends Activity {
 			// TODO Auto-generated method stub
 			if (p1q1) {
 				alertDialog.setTitle("Oops! Let's try that again!");
-				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedThreeErrorCorrectionOne));
+				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedSixErrorCorrectionOne));
 				alertDialog.show();
 				wrongSound.start();
 				p1q1=false;
@@ -125,7 +125,7 @@ public class DoubleReverseFrame3 extends Activity {
 			// TODO Auto-generated method stub
 			if (p1q2 && !p1q1) {
 				alertDialog.setTitle(getResources().getString(R.string.oops));
-				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedThreeErrorCorrectionTwo));
+				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedSixErrorCorrectionTwo));
 				alertDialog.show();
 				wrongSound.start();
 				p1q2=false;
@@ -153,7 +153,7 @@ public class DoubleReverseFrame3 extends Activity {
 			// TODO Auto-generated method stub
 			if (p2q1 && !p1q2) {
 				alertDialog.setTitle(getResources().getString(R.string.oops));
-				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedThreeErrorCorrectionThree));
+				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedSixErrorCorrectionThree));
 				alertDialog.show();
 				wrongSound.start();
 				p2q1=false;
@@ -182,7 +182,7 @@ public class DoubleReverseFrame3 extends Activity {
 			// TODO Auto-generated method stub
 			if (p2q2 && !p2q1) {
 				alertDialog.setTitle(getResources().getString(R.string.oops));
-				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedThreeErrorCorrectionFour));
+				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedSixErrorCorrectionFour));
 				alertDialog.show();
 				wrongSound.start();
 				p2q2=false;
@@ -211,7 +211,7 @@ public class DoubleReverseFrame3 extends Activity {
 			// TODO Auto-generated method stub
 			if (p3q1 && !p2q2) {
 				alertDialog.setTitle(getResources().getString(R.string.oops));
-				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedThreeErrorCorrectionFive));
+				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedSixErrorCorrectionFive));
 				alertDialog.show();
 				wrongSound.start();
 				p3q1=false;
@@ -241,7 +241,7 @@ public class DoubleReverseFrame3 extends Activity {
 			// TODO Auto-generated method stub
 			if (p3q2 && !p3q1) {
 				alertDialog.setTitle(getResources().getString(R.string.oops));
-				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedThreeErrorCorrectionSix));
+				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedSixErrorCorrectionSix));
 				alertDialog.show();
 				wrongSound.start();
 				p3q2=false;
@@ -271,7 +271,7 @@ public class DoubleReverseFrame3 extends Activity {
 			// TODO Auto-generated method stub
 			if (p4q1 && !p3q2) {
 				alertDialog.setTitle(getResources().getString(R.string.oops));
-				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedThreeErrorCorrectionSeven));
+				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedSixErrorCorrectionSeven));
 				alertDialog.show();
 				wrongSound.start();
 				p4q1=false;
@@ -301,7 +301,7 @@ public class DoubleReverseFrame3 extends Activity {
 			// TODO Auto-generated method stub
 			if (p4q2 && !p4q1) {
 				alertDialog.setTitle(getResources().getString(R.string.oops));
-				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedThreeErrorCorrectionEight));
+				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedSixErrorCorrectionEight));
 				alertDialog.show();
 				wrongSound.start();
 				p4q2=false;
@@ -330,7 +330,7 @@ public class DoubleReverseFrame3 extends Activity {
 			// TODO Auto-generated method stub
 			if (p5q1 && !p4q2) {
 				alertDialog.setTitle(getResources().getString(R.string.oops));
-				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedThreeErrorCorrectionNine));
+				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedSixErrorCorrectionNine));
 				alertDialog.show();
 				wrongSound.start();
 				p5q1=false;
@@ -372,7 +372,7 @@ public class DoubleReverseFrame3 extends Activity {
 									notYet.show();
 							}
 
-				DataHolder entry = new DataHolder(DoubleReverseFrame3.this);
+				DataHolder entry = new DataHolder(DoubleReverseFrame6.this);
 				boolean didItWork=true;
 				
 				try {
@@ -409,11 +409,11 @@ public class DoubleReverseFrame3 extends Activity {
 				wrongSound.start();
 				p5q2=false;
 				alertDialog.setTitle(getResources().getString(R.string.oops));
-				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedThreeErrorCorrectionTen));
+				alertDialog.setMessage(getResources().getString(R.string.DoubleReversedSixErrorCorrectionTen));
 				alertDialog.show();
 			linearLayoutFive.setBackgroundResource(R.drawable.background_red);
 			
-			DataHolder entry = new DataHolder(DoubleReverseFrame3.this);
+			DataHolder entry = new DataHolder(DoubleReverseFrame6.this);
 			boolean didItWork=true;
 			
 			try {

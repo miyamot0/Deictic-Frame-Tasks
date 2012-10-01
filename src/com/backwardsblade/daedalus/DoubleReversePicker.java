@@ -17,6 +17,9 @@ public class DoubleReversePicker extends Activity {
 		Button DoubleReverseFrameSet1 = (Button) findViewById(R.id.DoubleReversedFrameSet1);
 		Button DoubleReverseFrameSet2 = (Button) findViewById(R.id.DoubleReversedFrameSet2);
 		Button DoubleReverseFrameSet3 = (Button) findViewById(R.id.DoubleReversedFrameSet3);
+		Button DoubleReverseFrameSet4 = (Button) findViewById(R.id.DoubleReversedFrameSet4);		
+		Button DoubleReverseFrameSet5 = (Button) findViewById(R.id.DoubleReversedFrameSet5);		
+		Button DoubleReverseFrameSet6 = (Button) findViewById(R.id.DoubleReversedFrameSet6);				
 		
 		DoubleReverseFrameSet1.setOnClickListener(new View.OnClickListener() {
 			
@@ -41,5 +44,29 @@ public class DoubleReversePicker extends Activity {
 				startActivity(new Intent("com.backwardsblade.daedalus.DOUBLEREVERSEFRAME3"));				
 			}
 		});	
+		
+		DoubleReverseFrameSet4.setOnClickListener(new View.OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				startActivity(new Intent("com.backwardsblade.daedalus.DOUBLEREVERSEFRAME4"));				
+			}
+		});			
+		
+		DoubleReverseFrameSet5.setOnClickListener(new View.OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				startActivity(new Intent("com.backwardsblade.daedalus.DOUBLEREVERSEFRAME5"));				
+			}
+		});					
+		
+		DoubleReverseFrameSet6.setOnClickListener(new View.OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				startActivity(new Intent("com.backwardsblade.daedalus.DOUBLEREVERSEFRAME6"));				
+			}
+		});							
 	}
 }

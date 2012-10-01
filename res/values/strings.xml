@@ -1568,53 +1568,202 @@
 	    You are waiting for me to finish here in the classroom right now, you were were standing at the bus stop before.</string>
 	<string name="DoubleReversedThreeQuestionOne">If you were me, and I were you; And here was there, and there was here; Where would I be?</string>
 	<string name="DoubleReversedThreeAnswerOne">Standing at the bus stop</string>
-	<string name="DoubleReversedThreeErrorCorrectionOne">I am sitting here by the candles right now, I was sleeping in my bed before. 
-	    You are waiting to play a game here in the classroom right now, you were were outside playing before. If you were me, and I were you; And here was there, and there was here I would be STANDING AT THE BUS STOP.</string>    
+	<string name="DoubleReversedThreeErrorCorrectionOne">I am hanging out here by the bookshelf right now, I was sitting on the bus before. 
+	    You are waiting for me to finish here in the classroom right now, you were were standing at the bus stop before. If you were me, and I were you; And here was there, and there was here I would be STANDING AT THE BUS STOP.</string>    
 	<string name="DoubleReversedThreeQuestionTwo">If you were me, and I were you; And here was there, and there was here; Where would YOU be?</string>
 	<string name="DoubleReversedThreeAnswerTwo">Sitting on the bus</string>
-    <string name="DoubleReversedThreeErrorCorrectionTwo">I am sitting here by the candles right now, I was sleeping in my bed before. 
-	    You are waiting to play a game here in the classroom right now, you were were outside playing before. If you were me, and I were you; And here was there, and there was here YOU would be SITTING ON THE BUS.</string>    
+    <string name="DoubleReversedThreeErrorCorrectionTwo">I am hanging out here by the bookshelf right now, I was sitting on the bus before. 
+	    You are waiting for me to finish here in the classroom right now, you were were standing at the bus stop before. If you were me, and I were you; And here was there, and there was here YOU would be SITTING ON THE BUS.</string>    
     <string name="DoubleReversedThreeProbeTwo">I am reading here in the classroom, I was walking in the hallways before. 
         You are waiting here on a chair right now, you were doing work at your desk before.</string>
 	<string name="DoubleReversedThreeQuestionThree">If you were me, and I were you; And here was there, and there was here; Where would I be?</string>
 	<string name="DoubleReversedThreeAnswerThree">At the desk</string>
-	<string name="DoubleReversedThreeErrorCorrectionThree">I am talking here in the house, I was working outside before. 
-	    You are playing here on the floor right now, you were doing work in your classroom before. If you were me, and I were you; And here was there, and there was here I would be AT THE DESK.</string>    
+	<string name="DoubleReversedThreeErrorCorrectionThree">I am reading here in the classroom, I was walking in the hallways before. 
+        You are waiting here on a chair right now, you were doing work at your desk before. If you were me, and I were you; And here was there, and there was here I would be AT THE DESK.</string>    
 	<string name="DoubleReversedThreeQuestionFour">If you were me, and I were you; And here was there, and there was here; Where would YOU be?</string>
-	<string name="DoubleReversedThreeAnswerFour">Playing outside</string>
-	<string name="DoubleReversedThreeErrorCorrectionFour">I am talking here in the house, I was working outside before. 
-	    You are playing here on the floor right now, you were doing work in your classroom before. If you were me, and I were you; And here was there, and there was here YOU would be PLAYING OUTSIDE.</string>        
+	<string name="DoubleReversedThreeAnswerFour">In the hallways</string>
+	<string name="DoubleReversedThreeErrorCorrectionFour">I am reading here in the classroom, I was walking in the hallways before. 
+        You are waiting here on a chair right now, you were doing work at your desk before. If you were me, and I were you; And here was there, and there was here YOU would be IN THE HALLWAYS.</string>        
 	<string name="DoubleReversedThreeProbeThree">I am talking to a friend right now, I was cleaning up some papers before. 
 	    You are hanging out with your classmates right now, you were packing your lunch before.</string>
 	<string name="DoubleReversedThreeQuestionFive">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
 	<string name="DoubleReversedThreeAnswerFive">Packing lunch</string>
-	<string name="DoubleReversedThreeErrorCorrectionFive">If you were me, and I were you; And now was then, and then was now; 
-	    Where would I be doing right now? If you were me, and I were you; And now was then, and then was now I would be PACKING LUNCH.</string>    
+	<string name="DoubleReversedThreeErrorCorrectionFive">I am talking to a friend right now, I was cleaning up some papers before. 
+	    You are hanging out with your classmates right now, you were packing your lunch before. If you were me, and I were you; And now was then, and then was now I would be PACKING LUNCH.</string>    
 	<string name="DoubleReversedThreeQuestionSix">If you were me, and I were you; And now was then, and then was now; What would YOU be doing right now?</string>
 	<string name="DoubleReversedThreeAnswerSix">Cleaning up papers</string>
-    <string name="DoubleReversedThreeErrorCorrectionSix">If you were me, and I were you; And now was then, and then was now; 
-        Where would I be doing right now? If you were me, and I were you; And now was then, and then was now YOU would be CLEANING UP PAPERS.</string>        
+    <string name="DoubleReversedThreeErrorCorrectionSix">I am talking to a friend right now, I was cleaning up some papers before. 
+	    You are hanging out with your classmates right now, you were packing your lunch before. If you were me, and I were you; And now was then, and then was now YOU would be CLEANING UP PAPERS.</string>
     <string name="DoubleReversedThreeProbeFour">I am teaching you some word games right now, I was walking in the hallways before. 
         You are sitting down right now, you were passing out papers before.</string>
 	<string name="DoubleReversedThreeQuestionSeven">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
 	<string name="DoubleReversedThreeAnswerSeven">Passing out papers</string>
-	<string name="DoubleReversedThreeErrorCorrectionSeven">If you were me, and I were you; And now was then, and then was now; 
-	    Where would I be doing right now? If you were me, and I were you; And now was then, and then was now I would be PASSING OUT PAPERS.</string>    
+	<string name="DoubleReversedThreeErrorCorrectionSeven">I am teaching you some word games right now, I was walking in the hallways before. 
+        You are sitting down right now, you were passing out papers before. If you were me, and I were you; And now was then, and then was now I would be PASSING OUT PAPERS.</string>    
 	<string name="DoubleReversedThreeQuestionEight">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
 	<string name="DoubleReversedThreeAnswerEight">Walking in the hallways</string>
-    <string name="DoubleReversedThreeErrorCorrectionEight">If you were me, and I were you; And now was then, and then was now; 
-        Where would I be doing right now? If you were me, and I were you; And now was then, and then was now YOU would be WALKING IN THE HALLWAYS.</string>        
+    <string name="DoubleReversedThreeErrorCorrectionEight">I am teaching you some word games right now, I was walking in the hallways before. 
+        You are sitting down right now, you were passing out papers before. If you were me, and I were you; And now was then, and then was now YOU would be WALKING IN THE HALLWAYS.</string>        
     <string name="DoubleReversedThreeProbeFive">I am holding the tablet right now, I was unplugging the tablet from the wall before. 
         You are listening to my words right now, you were playing with friends before.</string>
 	<string name="DoubleReversedThreeQuestionNine">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
 	<string name="DoubleReversedThreeAnswerNine">Playing with friends</string>
-	<string name="DoubleReversedThreeErrorCorrectionNine">If you were me, and I were you; And now was then, and then was now; Where would I be doing right now? 
-	    If you were me, and I were you; And now was then, and then was now I would be PLAYING WITH FRIENDS.</string>    
+	<string name="DoubleReversedThreeErrorCorrectionNine">I am holding the tablet right now, I was unplugging the tablet from the wall before. 
+        You are listening to my words right now, you were playing with friends before. If you were me, and I were you; And now was then, and then was now I would be PLAYING WITH FRIENDS.</string>    
 	<string name="DoubleReversedThreeQuestionTen">If you were me, and I were you; And now was then, and then was now; What would YOU be doing right now?</string>
 	<string name="DoubleReversedThreeAnswerTen">Unplugging the tablet</string>
-    <string name="DoubleReversedThreeErrorCorrectionTen">If you were me, and I were you; And now was then, and then was now; Where would I be doing right now? 
-        If you were me, and I were you; And now was then, and then was now YOU would be UNPLUGGING THE TABLET.</string>   
-        
+    <string name="DoubleReversedThreeErrorCorrectionTen">I am holding the tablet right now, I was unplugging the tablet from the wall before. 
+        You are listening to my words right now, you were playing with friends before. If you were me, and I were you; And now was then, and then was now YOU would be UNPLUGGING THE TABLET.</string>   
+    <string name="DoubleReversedFourProbeOne">I am here on the carpet right now, I was there by the fish tank before. 
+	    You are sitting here in a cubby right now, you were there in line before.</string>
+	<string name="DoubleReversedFourQuestionOne">If you were me, and I were you; And here was there, and there was here; Where would I be?</string>
+	<string name="DoubleReversedFourAnswerOne">In line</string>
+	<string name="DoubleReversedFourErrorCorrectionOne">I am here on the carpet right now, I was there by the fish tank before. 
+	    You are sitting here in a cubby right now, you were there in line before. If you were me, and I were you; And here was there, and there was here I would be STANDING IN LINE.</string>    
+	<string name="DoubleReversedFourQuestionTwo">If you were me, and I were you; And here was there, and there was here; Where would YOU be?</string>
+	<string name="DoubleReversedFourAnswerTwo">By the fish tank</string>
+    <string name="DoubleReversedFourErrorCorrectionTwo">I am here on the carpet right now, I was there by the fish tank before. 
+	    You are sitting here in a cubby right now, you were there in line before. If you were me, and I were you; And here was there, and there was here YOU would be BY THE FISH TANK.</string>    
+    <string name="DoubleReversedFourProbeTwo">I am here by the computer, I was over there by the teachers desk before. 
+        You are waiting here next to me now, you were there by your friend Johnny before.</string>
+	<string name="DoubleReversedFourQuestionThree">If you were me, and I were you; And here was there, and there was here; Where would I be?</string>
+	<string name="DoubleReversedFourAnswerThree">By Johnny</string>
+	<string name="DoubleReversedFourErrorCorrectionThree">I am here by the computer, I was over there by the teachers desk before. 
+        You are waiting here next to me now, you were there by your friend Johnny before. If you were me, and I were you; And here was there, and there was here I would be BY JOHNNY.</string>    
+	<string name="DoubleReversedFourQuestionFour">If you were me, and I were you; And here was there, and there was here; Where would YOU be?</string>
+	<string name="DoubleReversedFourAnswerFour">By the teachers desk</string>
+	<string name="DoubleReversedFourErrorCorrectionFour">I am here by the computer, I was over there by the teachers desk before. 
+        You are waiting here next to me now, you were there by your friend Johnny before. If you were me, and I were you; And here was there, and there was here YOU would be BY THE TEACHERS DESK.</string>        
+	<string name="DoubleReversedFourProbeThree">I am talking to you right now, I was talking to the teacher before. 
+	    You are waiting for me to finish right now, you were talking with your friends before.</string>
+	<string name="DoubleReversedFourQuestionFive">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
+	<string name="DoubleReversedFourAnswerFive">Talking with friends</string>
+	<string name="DoubleReversedFourErrorCorrectionFive">I am talking to you right now, I was talking to the teacher before. 
+	    You are waiting for me to finish right now, you were talking with your friends before. If you were me, and I were you; And now was then, and then was now I would be TALKING WITH YOUR FRIENDS.</string>    
+	<string name="DoubleReversedFourQuestionSix">If you were me, and I were you; And now was then, and then was now; What would YOU be doing right now?</string>
+	<string name="DoubleReversedFourAnswerSix">Talking to the teacher</string>
+    <string name="DoubleReversedFourErrorCorrectionSix">I am talking to you right now, I was talking to the teacher before. 
+	    You are waiting for me to finish right now, you were talking with your friends before. If you were me, and I were you; And now was then, and then was now YOU would be TALKING TO THE TEACHER.</string>        
+    <string name="DoubleReversedFourProbeFour">I am showing you some new words right now, I was talking about video games before. 
+        You are thinking about words right now, you were doing some classwork before.</string>
+	<string name="DoubleReversedFourQuestionSeven">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
+	<string name="DoubleReversedFourAnswerSeven">Doing classwork</string>
+	<string name="DoubleReversedFourErrorCorrectionSeven">I am showing you some new words right now, I was talking about video games before. 
+        You are thinking about words right now, you were doing some classwork before. If you were me, and I were you; And now was then, and then was now I would be DOING CLASSWORK.</string>    
+	<string name="DoubleReversedFourQuestionEight">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
+	<string name="DoubleReversedFourAnswerEight">Talking about video games</string>
+    <string name="DoubleReversedFourErrorCorrectionEight">I am showing you some new words right now, I was talking about video games before. 
+        You are thinking about words right now, you were doing some classwork before. If you were me, and I were you; And now was then, and then was now YOU would be TALKING ABOUT VIDEO GAMES.</string>        
+    <string name="DoubleReversedFourProbeFive">I am thinking about playing outside right now, I was cleaning up my desk before. 
+        You are waiting for a turn with the tablet right now, you were cleaning the blackboard before.</string>
+	<string name="DoubleReversedFourQuestionNine">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
+	<string name="DoubleReversedFourAnswerNine">Cleaning the blackboard</string>
+	<string name="DoubleReversedFourErrorCorrectionNine">I am thinking about playing outside right now, I was cleaning up my desk before. 
+        You are waiting for a turn with the tablet right now, you were cleaning the blackboard before. If you were me, and I were you; And now was then, and then was now I would be CLEANING THE BLACKBOARD.</string>    
+	<string name="DoubleReversedFourQuestionTen">If you were me, and I were you; And now was then, and then was now; What would YOU be doing right now?</string>
+	<string name="DoubleReversedFourAnswerTen">Cleaning up a desk</string>
+    <string name="DoubleReversedFourErrorCorrectionTen">I am thinking about playing outside right now, I was cleaning up my desk before. 
+        You are waiting for a turn with the tablet right now, you were cleaning the blackboard before. If you were me, and I were you; And now was then, and then was now YOU would be CLEANING UP A DESK.</string>       
+    <string name="DoubleReversedFiveProbeOne">I am here by the toys right now, I was out there on the playground before. 
+	    You are here by a tablet computer right now, you were over there by your teacher before.</string>
+	<string name="DoubleReversedFiveQuestionOne">If you were me, and I were you; And here was there, and there was here; Where would I be?</string>
+	<string name="DoubleReversedFiveAnswerOne">By the teacher</string>
+	<string name="DoubleReversedFiveErrorCorrectionOne">I am here by the toys right now, I was out there on the playground before. 
+	    You are here by a tablet computer right now, you were over there by your teacher before. If you were me, and I were you; And here was there, and there was here I would be BY THE TEACHER.</string>    
+	<string name="DoubleReversedFiveQuestionTwo">If you were me, and I were you; And here was there, and there was here; Where would YOU be?</string>
+	<string name="DoubleReversedFiveAnswerTwo">On the playground</string>
+    <string name="DoubleReversedFiveErrorCorrectionTwo">I am here by the toys right now, I was out there on the playground before. 
+	    You are here by a tablet computer right now, you were over there by your teacher before. If you were me, and I were you; And here was there, and there was here YOU would be ON THE PLAYGROUND.</string>    
+    <string name="DoubleReversedFiveProbeTwo">I am here next to the carpet, I was over there by the other students before. 
+        You are here on the floor right now, you were over there at the teachers desk before.</string>
+	<string name="DoubleReversedFiveQuestionThree">If you were me, and I were you; And here was there, and there was here; Where would I be?</string>
+	<string name="DoubleReversedFiveAnswerThree">At the teachers desk</string>
+	<string name="DoubleReversedFiveErrorCorrectionThree">I am here next to the carpet, I was over there by the other students before. 
+        You are here on the floor right now, you were over there at the teachers desk before. If you were me, and I were you; And here was there, and there was here I would be AT THE TEACHERS DESK.</string>    
+	<string name="DoubleReversedFiveQuestionFour">If you were me, and I were you; And here was there, and there was here; Where would YOU be?</string>
+	<string name="DoubleReversedFiveAnswerFour">By the other students</string>
+	<string name="DoubleReversedFiveErrorCorrectionFour">I am here next to the carpet, I was over there by the other students before. 
+        You are here on the floor right now, you were over there at the teachers desk before. If you were me, and I were you; And here was there, and there was here YOU would be BY THE OTHER STUDENTS.</string>        
+	<string name="DoubleReversedFiveProbeThree">I am helping you learn right now, I was setting up the computer before. 
+	    You are looking at the tablet right now, you were finishing up some work before.</string>
+	<string name="DoubleReversedFiveQuestionFive">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
+	<string name="DoubleReversedFiveAnswerFive">Finishing up some work</string>
+	<string name="DoubleReversedFiveErrorCorrectionFive">I am helping you learn right now, I was setting up the computer before. 
+	    You are looking at the tablet right now, you were finishing up some work before. If you were me, and I were you; And now was then, and then was now I would be FINISHING UP SOME WORK.</string>    
+	<string name="DoubleReversedFiveQuestionSix">If you were me, and I were you; And now was then, and then was now; What would YOU be doing right now?</string>
+	<string name="DoubleReversedFiveAnswerSix">Setting up the computer</string>
+    <string name="DoubleReversedFiveErrorCorrectionSix">I am helping you learn right now, I was setting up the computer before. 
+	    You are looking at the tablet right now, you were finishing up some work before. If you were me, and I were you; And now was then, and then was now YOU would be SETTING UP THE COMPUTER.</string>        
+    <string name="DoubleReversedFiveProbeFour">I am touching the tablet screen right now, I was setting up the games before. 
+        You are thinking about games right now, you were talking to friends before.</string>
+	<string name="DoubleReversedFiveQuestionSeven">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
+	<string name="DoubleReversedFiveAnswerSeven">Talking to friends</string>
+	<string name="DoubleReversedFiveErrorCorrectionSeven">I am touching the tablet screen right now, I was setting up the games before. 
+        You are thinking about games right now, you were talking to friends before. If you were me, and I were you; And now was then, and then was now I would be TALKING TO FRIENDS.</string>    
+	<string name="DoubleReversedFiveQuestionEight">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
+	<string name="DoubleReversedFiveAnswerEight">Setting up the games</string>
+    <string name="DoubleReversedFiveErrorCorrectionEight">I am touching the tablet screen right now, I was setting up the games before. 
+        You are thinking about games right now, you were talking to friends before. If you were me, and I were you; And now was then, and then was now YOU would be SETTING UP THE GAMES.</string>        
+    <string name="DoubleReversedFiveProbeFive">I am reading from a tablet right now, I was charging batteries before. 
+        You are getting ready to answer right now, you were cleaning up your desk before.</string>
+	<string name="DoubleReversedFiveQuestionNine">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
+	<string name="DoubleReversedFiveAnswerNine">Cleaning up the desk</string>
+	<string name="DoubleReversedFiveErrorCorrectionNine">I am reading from a tablet right now, I was charging batteries before. 
+        You are getting ready to answer right now, you were cleaning up your desk before. If you were me, and I were you; And now was then, and then was now I would be Cleaning up the desk.</string>    
+	<string name="DoubleReversedFiveQuestionTen">If you were me, and I were you; And now was then, and then was now; What would YOU be doing right now?</string>
+	<string name="DoubleReversedFiveAnswerTen">Charging batteries</string>
+    <string name="DoubleReversedFiveErrorCorrectionTen">I am reading from a tablet right now, I was charging batteries before. 
+        You are getting ready to answer right now, you were cleaning up your desk before. If you were me, and I were you; And now was then, and then was now YOU would be CHARGING BATTERIES.</string>           
+    <string name="DoubleReversedSixProbeOne">I am here near the windows right now, I was out there in the parking lot before. 
+	    You are here on the carpet right now, you were there in the office before.</string>
+	<string name="DoubleReversedSixQuestionOne">If you were me, and I were you; And here was there, and there was here; Where would I be?</string>
+	<string name="DoubleReversedSixAnswerOne">In the office</string>
+	<string name="DoubleReversedSixErrorCorrectionOne">I am here near the windows right now, I was out there in the parking lot before. 
+	    You are here on the carpet right now, you were there in the office before. If you were me, and I were you; And here was there, and there was here I would be IN THE OFFICE.</string>    
+	<string name="DoubleReversedSixQuestionTwo">If you were me, and I were you; And here was there, and there was here; Where would YOU be?</string>
+	<string name="DoubleReversedSixAnswerTwo">In the parking lot</string>
+    <string name="DoubleReversedSixErrorCorrectionTwo">I am here near the windows right now, I was out there in the parking lot before. 
+	    You are here on the carpet right now, you were there in the office before. If you were me, and I were you; And here was there, and there was here YOU would be IN THE PARKING LOT.</string>    
+    <string name="DoubleReversedSixProbeTwo">I am in the chair, I was out there by the playground before. 
+        You are here in the classroom right now, you were at home earlier.</string>
+	<string name="DoubleReversedSixQuestionThree">If you were me, and I were you; And here was there, and there was here; Where would I be?</string>
+	<string name="DoubleReversedSixAnswerThree">At home</string>
+	<string name="DoubleReversedSixErrorCorrectionThree">I am in the chair, I was out there by the playground before. 
+        You are here in the classroom right now, you were at home earlier. If you were me, and I were you; And here was there, and there was here I would be AT HOME.</string>    
+	<string name="DoubleReversedSixQuestionFour">If you were me, and I were you; And here was there, and there was here; Where would YOU be?</string>
+	<string name="DoubleReversedSixAnswerFour">By the playground</string>
+	<string name="DoubleReversedSixErrorCorrectionFour">I am in the chair, I was out there by the playground before. 
+        You are here in the classroom right now, you were at home earlier. If you were me, and I were you; And here was there, and there was here YOU would be BY THE PLAYGROUND.</string>        
+	<string name="DoubleReversedSixProbeThree">I am teaching you a lesson right now, I was unpacking the computer before. 
+	    You are waiting to talk right now, you were walking around before.</string>
+	<string name="DoubleReversedSixQuestionFive">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
+	<string name="DoubleReversedSixAnswerFive">Walking around</string>
+	<string name="DoubleReversedSixErrorCorrectionFive">I am teaching you a lesson right now, I was unpacking the computer before. 
+	    You are waiting to talk right now, you were walking around before. If you were me, and I were you; And now was then, and then was now I would be WALKING AROUND.</string>    
+	<string name="DoubleReversedSixQuestionSix">If you were me, and I were you; And now was then, and then was now; What would YOU be doing right now?</string>
+	<string name="DoubleReversedSixAnswerSix">Unpacking the computer</string>
+    <string name="DoubleReversedSixErrorCorrectionSix">I am teaching you a lesson right now, I was unpacking the computer before. 
+	    You are waiting to talk right now, you were walking around before. If you were me, and I were you; And now was then, and then was now YOU would be UNPACKING THE COMPUTER.</string>        
+    <string name="DoubleReversedSixProbeFour">I am talking out loud right now, I was cleaning up the carpet before. 
+        You are thinking very hard right now, you were unpacking your backpack before.</string>
+	<string name="DoubleReversedSixQuestionSeven">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
+	<string name="DoubleReversedSixAnswerSeven">Unpacking a backpack</string>
+	<string name="DoubleReversedSixErrorCorrectionSeven">I am talking out loud right now, I was cleaning up the carpet before. 
+        You are thinking very hard right now, you were unpacking your backpack before. If you were me, and I were you; And now was then, and then was now I would be UNPACKING A BACKPACK.</string>    
+	<string name="DoubleReversedSixQuestionEight">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
+	<string name="DoubleReversedSixAnswerEight">Cleaning up the carpet</string>
+    <string name="DoubleReversedSixErrorCorrectionEight">I am talking out loud right now, I was cleaning up the carpet before. 
+        You are thinking very hard right now, you were unpacking your backpack before. If you were me, and I were you; And now was then, and then was now YOU would be CLEANING UP THE CARPET.</string>        
+    <string name="DoubleReversedSixProbeFive">I am teaching a lesson right now, I was setting up the classroom before. 
+        You are sitting nicely right now, you were running around the classroom before.</string>
+	<string name="DoubleReversedSixQuestionNine">If you were me, and I were you; And now was then, and then was now; What would I be doing right now?</string>
+	<string name="DoubleReversedSixAnswerNine">Running around the classroom</string>
+	<string name="DoubleReversedSixErrorCorrectionNine">I am teaching a lesson right now, I was setting up the classroom before. 
+        You are sitting nicely right now, you were running around the classroom before. If you were me, and I were you; And now was then, and then was now I would be RUNNING AROUND THE CLASSROOM.</string>    
+	<string name="DoubleReversedSixQuestionTen">If you were me, and I were you; And now was then, and then was now; What would YOU be doing right now?</string>
+	<string name="DoubleReversedSixAnswerTen">Setting up the classroom</string>
+    <string name="DoubleReversedSixErrorCorrectionTen">I am teaching a lesson right now, I was setting up the classroom before. 
+        You are sitting nicely right now, you were running around the classroom before. If you were me, and I were you; And now was then, and then was now YOU would be SETTING UP THE CLASSROOM.</string>           
     <string name="CheckOneSimpleProbeOne">You are helping me out.  I am reading out loud.</string>
     <string name="CheckOneSimpleQuestionOne">What am I doing?</string>
     <string name="CheckOneSimpleAnswerOne">Reading out loud</string>
@@ -1752,5 +1901,4 @@
     <string name="CheckOneDoubleReversedAnswerTen">Setting up</string>
     <string name="CheckOneDoubleReversedErrorCorrectionTen">I am playing some games right now, I was setting up before.  
         You are listening to me right now, you were building with toy blocks earlier. If you were me, and I were you; And now was then, and then was now YOU WOULD BE SETTING UP.</string>    
-
 </resources>

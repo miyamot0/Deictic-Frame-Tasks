@@ -52,6 +52,7 @@ public class Settings extends Activity implements OnClickListener {
 		builder = new AlertDialog.Builder(this);
 		
         builder.setTitle("What is your name?");
+        builder.setCancelable(false);
         builder.setItems(names, new DialogInterface.OnClickListener() {
 			
 			public void onClick(DialogInterface dialog, int which) {

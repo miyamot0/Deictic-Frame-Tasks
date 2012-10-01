@@ -68,6 +68,7 @@ public class DoubleReverseFrame1 extends Activity {
 		Button FiveNoTwo = (Button) findViewById(R.id.DoubleReversedOneButton20);				
 		
         builder.setTitle("What is your name?");
+        builder.setCancelable(false);
         builder.setItems(names, new DialogInterface.OnClickListener() {
 			
 			public void onClick(DialogInterface dialog, int which) {

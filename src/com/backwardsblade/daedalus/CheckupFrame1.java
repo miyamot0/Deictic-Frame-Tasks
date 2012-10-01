@@ -150,6 +150,7 @@ public class CheckupFrame1 extends Activity {
 		Button DoubleReversedFiveNoTwo = (Button) findViewById(R.id.CheckOneDoubleReversedButton20);		
 		
         builder.setTitle("What is your name?");
+        builder.setCancelable(false);
         builder.setItems(names, new DialogInterface.OnClickListener() {
 			
 			public void onClick(DialogInterface dialog, int which) {

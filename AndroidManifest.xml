@@ -441,6 +441,39 @@
         </activity>                                                
         
         <activity
+            android:name=".DoubleReverseFrame4"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.DOUBLEREVERSEFRAME4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                        
+        
+        <activity
+            android:name=".DoubleReverseFrame5"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.DOUBLEREVERSEFRAME5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                                
+        
+        <activity
+            android:name=".DoubleReverseFrame6"
+            android:label="@string/title_activity_main" 
+            android:exported="false" 
+	        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.backwardsblade.daedalus.DOUBLEREVERSEFRAME6" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                                                                        
+        
+        <activity
             android:name=".CheckupFrame1"
             android:label="@string/title_activity_main" 
             android:exported="false" 
